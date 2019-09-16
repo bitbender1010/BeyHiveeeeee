@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*speaker*/
+.speaker img {
+    width: 50px;
+    height: 50px;
+}
+
+.speaker, .pause {
+    margin: 0px 20px;
+}
+
+/*scores*/
+.scores img {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 10px 10px;
+}
+
+.scores, .scores2 {
+    min-width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid red;
+}
+
+.score-cover {
+    display: flex;
+}
+
+/*scores2::float left*/
+.scores2 img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 10px 10px;
+}
+
+/*pause*/
+.pause img {
+    width: 50px;
+    height: 50px;
+}
+
+.scores span, .scores2 span {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/*score1 margin*/
+.scores span {
+    margin-left: 20px;
+}
+
+/*divider*/
+.divider {
+    border: 1px solid red;
+    margin: 0px 5px;
+}
+
+/*logo score*/
+.logo-score {
+    width: 200px;
+    height: 55px;
+}
+
+.logo-score img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-score {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.j-center {
+    justify-content: center;
+    background: #F1F1F1;
+    padding: 10px 0px;
+}
+
+/*bg question*/
+.bg-question {
+    width: 100%;
+    height: 150px;
+    background: url('../image/carpet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.bg-question div {
+padding: 20px 200px;
+position: relative;
+top: 5%;
+}
