@@ -6,6 +6,11 @@ body {
     padding: 0px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /*logo cover*/
 .logo-cover {
     width: 436px;
