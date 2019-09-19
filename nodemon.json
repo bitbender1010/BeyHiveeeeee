@@ -1,0 +1,7 @@
+{
+    "env":{
+        "PASSWORD":"ay2mLMqkNZgbwGP",
+        "JWT_KEY":"secret",
+        "PORT": 3000
+    }
+}
